@@ -14,16 +14,16 @@ There are 2 separate projects. The Backend Microservice API and the Frontend Rea
 
 **How to run**
 - Run the Backend Microservice API first
-- Visit {host}/api/ and try out the backend api
+- Visit {host:port}/api/ and try out the backend api
 - Copy api host:port and change the host:port of the baseUrl in src/components/UserCard in user-frontend app.
   It definitely needs to be in config or env var. Please use this for now.
 
 - Run the user-frontend app. npm start in the user-frontend folder
 
-When app frontend app lauches, visit the users page, add /id to the url and press enter
-Ensure the backend app is running and the host:port is correct in the frontend app
+When frontend app launches, visit the users page, add /id to the url and press enter
+Ensure the backend api is running and the host:port is correct in the frontend app
 
-**Consideration**
+**Remarks**
 - Not much test has been written but test is essential for any production app
-- It's better to cach the user data  and use for subsequent request instead of requested from the service on each request.
+- It's better to cache the user data  and use for subsequent request instead of requesting from the service on each request.
 

@@ -16,7 +16,7 @@ There are 2 separate projects. The Backend Microservice API and the Frontend Rea
 - Run the Backend Microservice API first
 - Visit {host:port}/api/ and try out the backend api
 - Copy api host:port and change the host:port of the baseUrl in src/components/UserCard in user-frontend app.
-  It definitely needs to be in config or env var. Please use this for now.
+  It definitely needs to be in config or env var or a proxy to the api server. Please use this setup for now. 
 
 - Run the user-frontend app. npm start in the user-frontend folder
 
